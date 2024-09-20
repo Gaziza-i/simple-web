@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,400;1,300&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap" rel="stylesheet">
+    <script src="/js/jquery-3.7.1.js" defer></script>
+    <script src="/js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="menu__desktop">
+                <ul class="menu">
+                    <li class="menu__item"><a class="active" href="#">Home</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
+                    <li class="menu__item"><img src="/images/logo.png" alt="" class="logo"><a href="#"></a></li>
+                    <li class="menu__item"><a href="#provide">Services</a></li>
+                    <li class="menu__item"><a href="#">Blog</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <nav class="menu__mobile">
+                <div class="menu__inner">
+                    <a href="#"><img src="/images/logo.png" alt="logo" class="logo"></a>
+                    <div class="menu__burger"><span></span></div>
+                </div>
+                
+                <ul class="menu">
+                    <li class="menu__item"><a class="active" href="#">Home</a></li>
+                    <li class="menu__item"><a href="#about">About Us</a></li>
+                    <li class="menu__item"><a href="#team">Team</a></li>
+                    <li class="menu__item"><a href="#provide">Services</a></li>
+                    <li class="menu__item"><a href="#">Blog</a></li>
+                    <li class="menu__item"><a href="#contact">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header__content">
+                <h1 class="header__title">We build it with passion</h1>
+                <p class="header__text">Just to be clear, we do this for fun not for you, just kidding.</p>
+                <a href="" class="header__button">READ MORE</a>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="about" id="about">
+            <div class="container">
+                <div class="about__inner">
+                    <div class="about__item">
+                        <div class="about__year">2011</div>
+                        <div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas enim amet quae libero dolorum asperiores.</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2012</div>
+                        <div class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque omnis voluptate fugiat itaque nostrum, nemo deleniti doloremque repellat ipsa.</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2013</div>
+                        <div class="about__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus minima maiores tempora hic. Incidunt esse doloribus nisi dicta. Enim fugiat nobis illum iure sed est excepturi quae?</div>
+                    </div>
+                    <div class="about__item">
+                        <div class="about__year">2014</div>
+                        <div class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, corporis reiciendis. Reprehenderit odio soluta molestias perferendis natus voluptate nulla.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="team" id="team">
+            <div class="container">
+                <div class="block__head">
+                    <h2 class="block__title">This is our team</h2>
+                    <p class="block__text">We are small but effective and ...</p>
+                </div>
+                <ul class="team__inner">
+                    <li class="team__item">
+                        <img src="/images/team1.png" alt="" class="team__item-img">
+                        <h3 class="team__item-title">Mark Once</h3>
+                        <p class="team__item-text">Designeer & Front-End Developer</p>
+                        <div class="team__icon-box">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"/>
+                            </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <img src="/images/team2.png" alt="" class="team__item-img">
+                        <h3 class="team__item-title">Justin Twice</h3>
+                        <p class="team__item-text">Founder & CEO</p>
+                        <div class="team__icon-box">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"/>
+                            </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+                        </div>
+                    </li>
+                    <li class="team__item">
+                        <img src="/images/team3.png" alt="" class="team__item-img">
+                        <h3 class="team__item-title">Antonio Never</h3>
+                        <p class="team__item-text">Someone & Somewhere</p>
+                        <div class="team__icon-box">
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M22,3.999c-0.78,0.463-2.345,1.094-3.265,1.276c-0.027,0.007-0.049,0.016-0.075,0.023c-0.813-0.802-1.927-1.299-3.16-1.299 c-2.485,0-4.5,2.015-4.5,4.5c0,0.131-0.011,0.372,0,0.5c-3.353,0-5.905-1.756-7.735-4c-0.199,0.5-0.286,1.29-0.286,2.032 c0,1.401,1.095,2.777,2.8,3.63c-0.314,0.081-0.66,0.139-1.02,0.139c-0.581,0-1.196-0.153-1.759-0.617c0,0.017,0,0.033,0,0.051 c0,1.958,2.078,3.291,3.926,3.662c-0.375,0.221-1.131,0.243-1.5,0.243c-0.26,0-1.18-0.119-1.426-0.165 c0.514,1.605,2.368,2.507,4.135,2.539c-1.382,1.084-2.341,1.486-5.171,1.486H2C3.788,19.145,6.065,20,8.347,20 C15.777,20,20,14.337,20,8.999c0-0.086-0.002-0.266-0.005-0.447C19.995,8.534,20,8.517,20,8.499c0-0.027-0.008-0.053-0.008-0.08 c-0.003-0.136-0.006-0.263-0.009-0.329c0.79-0.57,1.475-1.281,2.017-2.091c-0.725,0.322-1.503,0.538-2.32,0.636 C20.514,6.135,21.699,4.943,22,3.999z"/>
+                            </svg></a>
+                            <a href="#"><svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="30px" height="30px">    <path d="M 8 3 C 5.243 3 3 5.243 3 8 L 3 16 C 3 18.757 5.243 21 8 21 L 16 21 C 18.757 21 21 18.757 21 16 L 21 8 C 21 5.243 18.757 3 16 3 L 8 3 z M 8 5 L 16 5 C 17.654 5 19 6.346 19 8 L 19 16 C 19 17.654 17.654 19 16 19 L 8 19 C 6.346 19 5 17.654 5 16 L 5 8 C 5 6.346 6.346 5 8 5 z M 17 6 A 1 1 0 0 0 16 7 A 1 1 0 0 0 17 8 A 1 1 0 0 0 18 7 A 1 1 0 0 0 17 6 z M 12 7 C 9.243 7 7 9.243 7 12 C 7 14.757 9.243 17 12 17 C 14.757 17 17 14.757 17 12 C 17 9.243 14.757 7 12 7 z M 12 9 C 13.654 9 15 10.346 15 12 C 15 13.654 13.654 15 12 15 C 10.346 15 9 13.654 9 12 C 9 10.346 10.346 9 12 9 z"/></svg></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="provide" id="provide">
+            <div class="container">
+                <div class="block__head inverse">
+                    <h2 class="block__title">We provide you everything</h2>
+                    <p class="block__text">Maybe not everrything, but we provide you some stuff.</p>
+                </div>
+                <ul class="provide__inner">
+                    <li class="provide__item">
+                        <div class="provide__icon-wrapper"><svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path d="M24 3.875l-6 1.221 1.716 1.708-5.351 5.358-3.001-3.002-7.336 7.242 1.41 1.418 5.922-5.834 2.991 2.993 6.781-6.762 1.667 1.66 1.201-6.002zm0 17.125v2h-24v-22h2v20h22z"/></svg>
+                        </div>
+                        <h3 class="provide__item-title">Some Analitics</h3>
+                        <p class="provide__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores eveniet!</p>
+                    </li>
+                    <li class="provide__item">
+                        <div class="provide__icon-wrapper">
+                            <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m12 5.72c-2.624-4.517-10-3.198-10 2.461 0 3.725 4.345 7.727 9.303 12.54.194.189.446.283.697.283s.503-.094.697-.283c4.977-4.831 9.303-8.814 9.303-12.54 0-5.678-7.396-6.944-10-2.461z" fill-rule="nonzero"/></svg>
+                        </div>
+                        <h3 class="provide__item-title">We provide you love</h3>
+                        <p class="provide__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores eveniet!</p>
+                    </li>
+                    <li class="provide__item">                        
+                        <div class="provide__icon-wrapper">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 24 24"><path d="M12 5c3.453 0 5.891 2.797 5.567 6.78 1.745-.046 4.433.751 4.433 3.72 0 1.93-1.57 3.5-3.5 3.5h-13c-1.93 0-3.5-1.57-3.5-3.5 0-2.797 2.479-3.833 4.433-3.72-.167-4.218 2.208-6.78 5.567-6.78zm0-2c-4.006 0-7.267 3.141-7.479 7.092-2.57.463-4.521 2.706-4.521 5.408 0 3.037 2.463 5.5 5.5 5.5h13c3.037 0 5.5-2.463 5.5-5.5 0-2.702-1.951-4.945-4.521-5.408-.212-3.951-3.473-7.092-7.479-7.092zm4 10h-3v4h-2v-4h-3l4-4 4 4z"/></svg>
+                        </div>
+                        <h3 class="provide__item-title">And Some Cloud</h3>
+                        <p class="provide__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolores eveniet!</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="contact" id="contact">
+            <div class="container">
+                <div class="block__head">
+                    <h2 class="block__title">Contact Us</h2>
+                    <p class="block__text">We know what we need to do</p>
+                </div> 
+                <div class="contact__inner">
+                    <ul class="contact__icon-box">
+                        <li class="contact__item">
+                            <a href="tel:555222333" class="contact__item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/>
+                                </svg>
+                               <p class="contact-text">555-222-333</p>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="#" class="contact__item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0c-4.198 0-8 3.403-8 7.602 0 4.198 3.469 9.21 8 16.398 4.531-7.188 8-12.2 8-16.398 0-4.199-3.801-7.602-8-7.602zm0 11c-1.657 0-3-1.343-3-3s1.343-3 3-3 3 1.343 3 3-1.343 3-3 3z"/>
+                                </svg>
+                                <p class="contact-text">Here is some address</p>
+                            </a>
+                        </li>
+                        <li class="contact__item">
+                            <a href="mailto:somemail@hotmail.com" class="contact__item-link" target="_blank">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+                                </svg>
+                                <p class="contact-text">somemail@hotmail.com</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <form class="contact__form">
+                        <input class="contact__name" type="text" placeholder="Full Name">
+                        <input class="contact__email" type="email" placeholder="Email">
+                        <input class="contact__number" type="number" placeholder="Number">
+                        <textarea class="contact__textarea" placeholder="Write your Message here..."></textarea>
+                        <input type="submit" class="contact__button" value="Submit"></input>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__text">
+                Copyright &copy; Kenan Hamidic. All rights reserved.
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
